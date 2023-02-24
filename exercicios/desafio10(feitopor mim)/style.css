@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fonte1/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+body {
+    background-color: rgba(215, 229, 149, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to right, #1d753c,#56ce94);
+    font-family: 'Roboto', sans-serif; 
+    margin: 0px;
+    padding-top: 40px;
+    min-height: 150px;
+
+}
+    
+header > h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 2em;
+   
+
+
+}
+
+p#head{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 12px;
+    font-size: bold;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    margin-bottom: 0px;
+    
+
+
+}
+
+nav a:hover { 
+    background-color: #347355;
+    color: black;
+    transition-duration: 0.5s;
+
+
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+ h2{
+    font-family: 'idroid';
+    color: #60BF81;
+    text-align: start;
+
+ }
+
+ h3 {
+    font-family: 'idroid';
+    color: #60BF81;
+    background-image: linear-gradient(to left, #60BF81,#347355 );
+    text-align: start;
+ }
+
+
+
+ span{
+    color: #347355;
+    font-weight: bolder;
+ }
+
+
+
+ section {
+
+    background-color: #60BF81;
+    border-radius: 20px;
+
+
+ }
+
+ h4 {
+    color: white;
+    background-color: #347355;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: start;
+ }
+
+ li {
+    text-align: justify;
+ }
+
+ footer {
+    background-color: #347355;
+    color: white;
+    text-align: center;
+    padding: 1px;
+
+
+ }
+
+ ol {
+    margin: 30px;
+ }
+ 

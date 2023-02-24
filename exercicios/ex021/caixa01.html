@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+       h1 {  /*box-level (quebra a linha ( e um bloco))*/
+          background-color: gray;
+          height: 300px;
+          width: 300px;
+
+          border-width: 10px;
+          border-style: solid;
+          border-color: darkslategray;
+
+         border: 10px solid darkslategray;
+
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          padding-left: 10px;  
+
+          padding: 10px ;
+
+         margin-top: 20px;
+         margin-right: 20px;
+         margin-bottom: 40px;
+         margin-left: 20px;
+
+         margin:20px 20px 40px 20px ;   /*shorthand*/      
+
+         outline-width: 5px;
+         outline-style: dashed;
+         outline-color: tomato;
+
+         outline: 5px dashed salmon;
+        }
+
+        a {
+            /*inline level (nao quebra a linha )*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            
+            border: 10px solid red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px; /* shorthand */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level,mas os <a href="#">links são exemplos de inline level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
+
+
+<!--todo elemento ( se for uma caixa) que voçe quiser colocar no meio é com margin auto.
+outline ( uma linha fora da caixa)
+foi usado nesse exercicio varios exemplos de shorthand para entendimento
+height e widht sao o boxsizing da minha caixa-->
